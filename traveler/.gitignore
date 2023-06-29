@@ -1,0 +1,60 @@
+obj/
+bin/
+.idea/
+**/coverage.opencover.xml
+**/coveragereport/
+.vscode
+**/TestResults/**
+packages/
+# understand
+artifacts/
+*.udb
+
+# Coverage
+coverage/
+
+# lcov
+**/lcov.info
+**/lcov.opencover.xml
+
+Traveler.db
+
+**/Migrations/
+
+cache/
+cache
+**cache
+.cache
+.cache/
+
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+
+# Visual Studio Code
+.vscode
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+Settings.cs

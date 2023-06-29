@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "iFWXIkC+J95pXjK0ToC+5N0fXzQFJwrXFYEzedXVjVMRsIIIKlWnvqM87BxyWpFbEofii2jdKQ9fNX0K3/2l0w==",
+  "success": true,
+  "projectFilePath": "C:\\Projetos\\C#\\traveler-backEnd\\traveler\\Traveler.WebApi\\Traveler.WebApi.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://artifactory.softplan.com.br/artifactory/api/nuget/v3/nuget-local'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}

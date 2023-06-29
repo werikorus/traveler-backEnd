@@ -1,0 +1,139 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Traveler.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Traveler.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Traveler.Domain.dll": {}
+        }
+      },
+      "Traveler.Repositories/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Traveler.Repositories.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Traveler.Repositories.dll": {}
+        }
+      },
+      "Traveler.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Traveler.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Traveler.Services.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Traveler.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Traveler.Domain/Traveler.Domain.csproj",
+      "msbuildProject": "../Traveler.Domain/Traveler.Domain.csproj"
+    },
+    "Traveler.Repositories/1.0.0": {
+      "type": "project",
+      "path": "../Traveler.Repositories/Traveler.Repositories.csproj",
+      "msbuildProject": "../Traveler.Repositories/Traveler.Repositories.csproj"
+    },
+    "Traveler.Services/1.0.0": {
+      "type": "project",
+      "path": "../Traveler.Services/Traveler.Services.csproj",
+      "msbuildProject": "../Traveler.Services/Traveler.Services.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Traveler.Domain >= 1.0.0",
+      "Traveler.Repositories >= 1.0.0",
+      "Traveler.Services >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\werik.cunha\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Projetos\\C#\\traveler-backEnd\\traveler\\Traveler.WebApi\\Traveler.WebApi.csproj",
+      "projectName": "Traveler.WebApi",
+      "projectPath": "C:\\Projetos\\C#\\traveler-backEnd\\traveler\\Traveler.WebApi\\Traveler.WebApi.csproj",
+      "packagesPath": "C:\\Users\\werik.cunha\\.nuget\\packages\\",
+      "outputPath": "C:\\Projetos\\C#\\traveler-backEnd\\traveler\\Traveler.WebApi\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\werik.cunha\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "http://artifactory.softplan.com.br/artifactory/api/nuget/v3/nuget-local": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Projetos\\C#\\traveler-backEnd\\traveler\\Traveler.Domain\\Traveler.Domain.csproj": {
+              "projectPath": "C:\\Projetos\\C#\\traveler-backEnd\\traveler\\Traveler.Domain\\Traveler.Domain.csproj"
+            },
+            "C:\\Projetos\\C#\\traveler-backEnd\\traveler\\Traveler.Repositories\\Traveler.Repositories.csproj": {
+              "projectPath": "C:\\Projetos\\C#\\traveler-backEnd\\traveler\\Traveler.Repositories\\Traveler.Repositories.csproj"
+            },
+            "C:\\Projetos\\C#\\traveler-backEnd\\traveler\\Traveler.Services\\Traveler.Services.csproj": {
+              "projectPath": "C:\\Projetos\\C#\\traveler-backEnd\\traveler\\Traveler.Services\\Traveler.Services.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.410\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://artifactory.softplan.com.br/artifactory/api/nuget/v3/nuget-local'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}
